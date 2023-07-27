@@ -1,0 +1,104 @@
+body{
+    background-color:  #669999;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+#E00041
+#c70039
+
+#FF3333 #999999 #669999 #003333
+
+
+*/
+
+#app{
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+    border: solid 2px  #999999;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#time{
+    text-align: center;
+    padding: 20px 0;
+}
+
+#time #value{
+    font-size: 48px;
+    font-weight: bolder;
+    background-color:  #FF3333;
+    color: #fff;
+    border-radius: 50px;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"]{
+    padding: 5px;
+    border: solid 1px  #999999;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+button, input[type="submit"]{
+    border: none; 
+    background-color: #003333;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#tasks{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.task{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px;
+    border-radius: 5px;
+    background-color: #FFE5E5;
+}
+
+.task .completed{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    gap: 10px;
+}
+
+.done{
+    display: inline-block;
+    padding: 5px;
+    background-color: #003333;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#taskName{
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 20px;
+    color: #FF3333;
+    font-weight: bolder;
+}
+
+.title{
+    color: #003333;
+    font-weight: bolder;
+    padding: 6px;
+}
